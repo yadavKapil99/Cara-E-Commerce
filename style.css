@@ -512,6 +512,7 @@ body{
 /* pagination */
 #pagination{
     text-align: center;
+    margin-bottom: 40px;
 }
 #pagination a{
     text-decoration: none;
