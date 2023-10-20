@@ -37,9 +37,8 @@
 </section>
 
 <!-- blog section -->
-<!-- blog section -->
 <section id="blog">
-    <div class="blog-box">
+    <!-- <div class="blog-box">
       <div class="blog-img">
         <img src="img/blog/b1.jpg">
       </div>
@@ -53,96 +52,7 @@
       </div>
       <h1>01/10</h1>
     </div>
-    <hr>
-    <div class="blog-box">
-        <div class="blog-img">
-          <img src="img/blog/b2.jpg">
-        </div>
-        <div class="blog-details">
-          <h4>The cotton-Jersey Zip-Up Hoodie</h4>
-          <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony,godard...</p>
-          <div class="hide" >
-              <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iste.</p>
-          </div>
-          <button class="cont">Continue Reading</button>
-        </div>
-        <h1>02/10</h1>
-      </div>
-      <hr>
-      <div class="blog-box">
-        <div class="blog-img">
-          <img src="img/blog/b3.jpg">
-        </div>
-        <div class="blog-details">
-          <h4>The cotton-Jersey Zip-Up Hoodie</h4>
-          <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony,godard...</p>
-          <div class="hide" >
-              <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iste.</p>
-          </div>
-          <button class="cont">Continue Reading</button>
-        </div>
-        <h1>03/10</h1>
-      </div>
-      <hr>
-      <div class="blog-box">
-        <div class="blog-img">
-          <img src="img/blog/b4.jpg">
-        </div>
-        <div class="blog-details">
-          <h4>The cotton-Jersey Zip-Up Hoodie</h4>
-          <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony,godard...</p>
-          <div class="hide" >
-              <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iste.</p>
-          </div>
-          <button class="cont">Continue Reading</button>
-        </div>
-        <h1>04/10</h1>
-      </div>
-      <hr>
-      <div class="blog-box">
-        <div class="blog-img">
-          <img src="img/blog/b5.jpg">
-        </div>
-        <div class="blog-details">
-          <h4>The cotton-Jersey Zip-Up Hoodie</h4>
-          <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony,godard...</p>
-          <div class="hide" >
-              <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iste.</p>
-          </div>
-          <button class="cont">Continue Reading</button>
-        </div>
-        <h1>05/10</h1>
-      </div>
-      <hr>
-      <div class="blog-box">
-        <div class="blog-img">
-          <img src="img/blog/b6.jpg">
-        </div>
-        <div class="blog-details">
-          <h4>The cotton-Jersey Zip-Up Hoodie</h4>
-          <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony,godard...</p>
-          <div class="hide" >
-              <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iste.</p>
-          </div>
-          <button class="cont">Continue Reading</button>
-        </div>
-        <h1>06/10</h1>
-      </div>
-      <hr>
-      <div class="blog-box">
-        <div class="blog-img">
-          <img src="img/blog/b7.jpg">
-        </div>
-        <div class="blog-details">
-          <h4>The cotton-Jersey Zip-Up Hoodie</h4>
-          <p>Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony,godard...</p>
-          <div class="hide" >
-              <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iste.</p>
-          </div>
-          <button class="cont">Continue Reading</button>
-        </div>
-        <h1>07/10</h1>
-      </div>
+    <hr> -->
   </section>
   
 <!--For next Page  -->
@@ -164,19 +74,7 @@
         <button>Sign Up</button>
     </div>
 </section>
-
-<script>
-let contButton = document.querySelectorAll('.cont');
-let hiddenEl = document.querySelectorAll(".hide");
-contButton.forEach((e)=>{
-  e.addEventListener('click', ()=>{
-    e.innerHTML = "Read Less";
-    if(e.parentElement.children[2].classList.contains('hide')){
-      e.parentElement.children[2].classList.toggle('not-hide');
-    }
-  })
-})
-</script>
 <script src="script.js"></script>
+<script src="blog.js"></script>
 </body>
 </html>

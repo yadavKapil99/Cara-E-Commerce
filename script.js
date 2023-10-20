@@ -227,7 +227,7 @@ const items = [
 
 // container of featured class
 const proContainer = document.querySelectorAll(".pro-container");
-let countingItem = 0;
+let itemsIndex = 0;
 
 // loop  for items on the index page
 items.forEach((item)=> {
@@ -268,13 +268,13 @@ items.forEach((item)=> {
     ratingDiv.className = "star";
   
     // Append the product to the container
-    if(countingItem <8){
+    if(itemsIndex <8){
       proContainer[0].appendChild(product);
     }
     else {
       proContainer[1].appendChild(product);
     }
-  countingItem++
+    itemsIndex++
 });
 
 
@@ -284,15 +284,9 @@ const nav = document.getElementById("navbar");
 
 bar.addEventListener('click', ()=>{
   nav.classList.add('shuru');
-})
+});
 
 const close = document.querySelector('.close-navbar');
 close.addEventListener('click',()=>{
   nav.classList.remove('shuru');
-})
-
-
-
-
-
-    
+});
