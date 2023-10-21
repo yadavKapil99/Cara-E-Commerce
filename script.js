@@ -6,14 +6,14 @@ var slider = document.querySelector('.main-carousel h1');
 let currentWordIndex = 0;
 
 function rotateWords() {
-if (currentWordIndex >= carouselWords.length) {
-  currentWordIndex = 0;
-}
-const activeWord = carouselWords[currentWordIndex];
-// console.log('activeWord===',activeWord);
-if(activeWord){
-  slider.textContent = activeWord;
-}
+  if (currentWordIndex >= carouselWords.length) {
+    currentWordIndex = 0;
+  }
+  const activeWord = carouselWords[currentWordIndex];
+  // console.log('activeWord===',activeWord);
+  if(activeWord){
+    slider.textContent = activeWord;
+  }
 
   currentWordIndex++;
 }
