@@ -15,7 +15,7 @@ let blogs = [
         Blog: "Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
         HiddenBlog: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iste.",
         Button: "Continue Reading",
-        Date: "01/10/2023"
+        Date: "02/10/2023"
       },
       {
         Image: "img/blog/b3.jpg",
@@ -23,7 +23,7 @@ let blogs = [
         Blog: "Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
         HiddenBlog: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iste.",
         Button: "Continue Reading",
-        Date: "01/10/2023"
+        Date: "03/10/2023"
       },
       {
         Image: "img/blog/b4.jpg",
@@ -31,7 +31,7 @@ let blogs = [
         Blog: "Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
         HiddenBlog: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iste.",
         Button: "Continue Reading",
-        Date: "01/10/2023"
+        Date: "04/10/2023"
       },
       {
         Image: "img/blog/b5.jpg",
@@ -39,7 +39,7 @@ let blogs = [
         Blog: "Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
         HiddenBlog: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iste.",
         Button: "Continue Reading",
-        Date: "01/10/2023"
+        Date: "05/10/2023"
       },
       {
         Image: "img/blog/b6.jpg",
@@ -47,7 +47,7 @@ let blogs = [
         Blog: "Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
         HiddenBlog: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iste.",
         Button: "Continue Reading",
-        Date: "01/10/2023"
+        Date: "06/10/2023"
       },
       {
         Image: "img/blog/b7.jpg",
@@ -55,7 +55,7 @@ let blogs = [
         Blog: "Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...",
         HiddenBlog: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iste.",
         Button: "Continue Reading",
-        Date: "01/10/2023"
+        Date: "07/10/2023"
       },
   ];
   
